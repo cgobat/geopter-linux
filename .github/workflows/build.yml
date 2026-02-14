@@ -26,7 +26,9 @@ jobs:
             qtbase5-dev \
             qtbase5-private-dev \
             qtdeclarative5-dev \
-            qttools5-dev
+            qtmultimedia5-dev \
+            qttools5-dev \
+            libqt5svg5-dev
 
       - name: Create build directory
         run: |
