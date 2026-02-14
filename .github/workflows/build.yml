@@ -50,4 +50,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: geopter-gui
-          path: ${{ github.workspace }}/bin/geopter-gui
+          path: ${{ env.BUILD_DIR }}/bin/geopter-gui
