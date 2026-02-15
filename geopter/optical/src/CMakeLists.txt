@@ -91,7 +91,6 @@ add_library(${PROJECT_NAME} STATIC
 
 target_include_directories(${PROJECT_NAME} PUBLIC
     ${CMAKE_SOURCE_DIR}/geopter/optical/include
-    ${CMAKE_SOURCE_DIR}/3rdparty/json/include
     ${CMAKE_SOURCE_DIR}/3rdparty/eigen-3.3.9
 )
 
