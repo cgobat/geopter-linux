@@ -51,8 +51,8 @@ void Graph2d::GetData(std::vector<double>& xdata, std::vector<double>& ydata)
 
 void Graph2d::GetXRange(double* lower, double* higher) const
 {
-    *lower  = *std::min_element(x_data_.begin(), y_data_.end());
-    *higher = *std::max_element(x_data_.begin(), y_data_.end());
+    *lower  = *std::min_element(x_data_.begin(), x_data_.end());
+    *higher = *std::max_element(x_data_.begin(), x_data_.end());
 }
 
 void Graph2d::GetYRange(double* lower, double* higher) const
